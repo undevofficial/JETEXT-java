@@ -1,12 +1,12 @@
-package com.msg91;
+package com.jetext;
 
 import java.util.HashMap;
 import java.util.Map;
 
 import org.json.JSONObject;
 
-import com.msg91.exceptions.MessageException;
-import com.msg91.exceptions.Msg91Exception;
+import com.jetext.exceptions.MessageException;
+import com.jetext.exceptions.jetextException;
 
 final class MessageFactory {
 
@@ -58,7 +58,7 @@ final class MessageFactory {
 
       try {
         response = apiClient.request("sendhttp.php", this.params);
-      } catch (Msg91Exception e) {
+      } catch (jetextException e) {
         throw new MessageException(e.getMessage());
       }
 
