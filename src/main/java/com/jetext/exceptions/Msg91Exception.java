@@ -1,6 +1,6 @@
-package com.msg91.exceptions;
+package com.jetext.exceptions;
 
-public class Msg91Exception extends Exception {
+public class jetextException extends Exception {
 
   private static final long serialVersionUID = -512414923918866933L;
 
