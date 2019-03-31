@@ -1,4 +1,4 @@
-package com.msg91;
+package com.jetext;
 
 public enum MessageRoute {
   PROMOTIONAL(1), TRANSACTIONAL(4);
