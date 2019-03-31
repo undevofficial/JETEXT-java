@@ -1,6 +1,6 @@
-package com.msg91.exceptions;
+package com.jetext.exceptions;
 
-public class InvalidRequestException extends Msg91Exception {
+public class InvalidRequestException extends jetextException {
 
   private static final long serialVersionUID = -6698414974591729188L;
 
