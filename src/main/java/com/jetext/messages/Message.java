@@ -1,6 +1,6 @@
-package com.msg91.messages;
+package com.jetext.messages;
 
-import com.msg91.ApiClient;
+import com.jetext.ApiClient;
 
 class Message {
 
